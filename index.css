@@ -1,0 +1,169 @@
+body {
+  background-color: lightblue;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* ---- Navigation Bar ---- */
+
+ul.textdecor {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e1111;
+}
+
+li.textdecor {
+  float: left;
+}
+
+li.textdecor a.textdecor {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+li.insta {
+  float: right;
+}
+
+.img1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* // --- Text ---// */
+
+h1 {
+  font-size: 65px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 0;
+  padding: 0;
+}
+.personal address {
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.indextext {
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  border-left: 10px solid Black;
+}
+
+/* // ---- Form ----// */
+
+form {
+  margin-top: 50px;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+form .submit {
+  background: #062b91;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #0b5394;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fafafa;
+}
+
+/* // ---- Background ----// */
+
+.backgroundimg {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: url(https://cdn.kimkim.com/files/a/content_articles/featured_photos/0e3794a0b646d638627afb626bf9ee46f472feb1/big-0bb2a2bea537c680f141d40cb484d888.jpg)
+    no-repeat center fixed;
+  background-size: cover;
+}
+
+.backgroundimg-color {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5));
+  margin: 0;
+}
+
+/* // --- Hero image ---// */
+
+.heroImage {
+  height: 1000px;
+  background-image: url(https://globetrender.com/wp-content/uploads/2021/02/AdobeStock_239804375-scaled-e1614519735981.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  margin: 0;
+}
+
+/* // -------Footer------// */
+
+.footer {
+  background-color: #0e1111;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footerimg {
+  float: left;
+  background-color: black;
+  padding: 20px;
+  height: 50px;
+  border: 3px black solid;
+  border-radius: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding-top: 10px;
+}
